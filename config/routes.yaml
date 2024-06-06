@@ -1,0 +1,9 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+app-coches_ver-coches:
+    path: /coches/ver-coches
+    controller: App\Controller\CochesController::vercoches
